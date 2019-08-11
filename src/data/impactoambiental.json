@@ -1,0 +1,36 @@
+{
+    "en":{
+        "titulo": "Social and environmental impact",
+        "conteudo":{
+            "saude":{
+                "titulo":"Health",
+                "conteudo":"High CO2 and CO concentration causes several problems in people's health",
+                "collection":{
+                    "header":"CO and CO2 health impacts",
+                    "items":[
+                        "Headache","Nausea And Vomiting","Blackouts", "Cancer"
+                    ]
+                }
+            },
+            "gases":{
+                "titulo":"Gas emissions",
+                "conteudo":"Smart parking solutions causes a 80% reduction on parking lots gas emissions",
+                "table":{
+                    "head":["","Now", "With Smart parking solutions"],
+                    "body": [
+                        ["Average time spent searching for a spot", "28 min", "5 min"],
+                        ["CO2 Emission", "295.572,42 tons","53.136,61 tons"],
+                        ["CO Emission","2.023,05 tons","363,69 tons"]
+                    ]
+                }
+            }
+        }
+    },
+    "pt":{
+        "titulo": "",
+        "conteudo":{
+            "saude":{},
+            "gases":{}
+        }
+    }
+}
