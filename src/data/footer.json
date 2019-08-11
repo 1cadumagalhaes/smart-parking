@@ -1,0 +1,14 @@
+{
+    "en":{
+        "bio": {
+            "titulo":"Company bio",
+            "conteudo": "We are a team of friends that are passionate about techonolgy and inovation. This project was developped to the Go Green in The City 2019"
+        },
+        "contato":{
+            "titulo": "Any questions? Contact us",
+            "email": "Your email",
+            "message": "Your message",
+            "submit": "Send"
+        }
+    }
+}

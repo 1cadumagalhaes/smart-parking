@@ -1,0 +1,10 @@
+{
+    "en":{
+        "titulo": "Our solution",
+        "descricao":"To solve this, we're going to develop an indoor location tracking system and a mobile app to the users."
+    },
+    "pt":{
+        "titulo": "Nossa solução",
+        "descricao":"Para resolver isso, vamos resolver um sistema de localização indoor e um aplicativo mobile para os usuários"
+    }
+}

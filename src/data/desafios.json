@@ -1,0 +1,28 @@
+{
+    "en": {
+        "titulo": "Challenges",
+        "conteudo": [
+            {
+                "titulo": "Time to find free parking space",
+                "conteudo": "How many times have you been looking for a long time and been late for an appointment? After a survey we verified that 64.3% of the participants already got a problem due to the delay seeking parking spaces.",
+                "icone": ""
+            },
+            {
+                "titulo": "Inneficient management",
+                "conteudo": "In large parking lots we always come across large spaces, but often misused or of wrongly calculated size. And to solve this, the owner needs to know what is happening.",
+                "icone": ""
+            },
+            {
+                "titulo": "Difficulty to find the car on exit",
+                "conteudo": "And when do we need to go and do not remember where we left our car? According to our survey 35.7% of people do not remember where they left their vehicle on leaving, and still 21.4% take pictures or make notes to remember. Do you believe ?!",
+                "icone": ""
+            },
+            {
+                "titulo": "Social and environmental problems",
+                "conteudo": "Have you stopped to think about how much we mistreated the planet circulating so much time by the Parking lots? The expense of fuel and the generation of waste is irreparable for the environment, have you thought about it?",
+                "icone": ""
+            }
+        ]
+    },
+    "pt": {}
+}

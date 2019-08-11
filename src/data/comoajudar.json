@@ -1,0 +1,36 @@
+{
+    "en":{
+        "titulo": "How can we help?",
+        "conteudo": [
+            {
+                "titulo":"A smart way to park",
+                "conteudo":[
+                    "QR code", "Parking map", "Selected parking space", "Special parking space for users with needs "
+                ],
+                "icone":""
+            },
+            {
+                "titulo":"A smart way to manage",
+                "conteudo":[
+                    "Data analysis", "Indicators related to visitors", "Space used with efficiency"
+                ],
+                "icone":""
+            },
+            {
+                "titulo":"A smart way to meet the costumer",
+                "conteudo":[
+                    "Easy access", "Information of your parking space (floor, number,type)", "In app payment"
+                ],
+                "icone":""
+            },{
+                "titulo":"A smart way to find your car",
+                "conteudo":[
+                    "Use augmented reality to find your car easily"
+                ],
+                "icone":""
+            }
+        ]
+
+        
+    }
+}
