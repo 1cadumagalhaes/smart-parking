@@ -4,19 +4,19 @@
         "conteudo":{
             "saude":{
                 "titulo":"Health",
-                "conteudo":"High CO2 and CO concentration causes several problems in people's health",
+                "conteudo":"Ventilation of enclosed garages is limited and may cause health problems.",
                 "collection":{
                     "header":"CO and CO2 health impacts",
                     "items":[
-                        "Headache","Nausea And Vomiting","Blackouts", "Cancer"
+                        "Drowsiness", "Headaches", "Low foccus", "Increased heart rate", "Nausea", "Confusion", "Fainting"
                     ]
                 }
             },
             "gases":{
                 "titulo":"Gas emissions",
-                "conteudo":"Smart parking solutions causes a 80% reduction on parking lots gas emissions",
+                "conteudo":"We estimate that in the city of São Paulo, considering only leisure such as shopping and concerts, parking lots are responsible for the emission of 295,572.42 tons of CO2 per year. To compensate for this, 1.5bi trees would be needed. Using our solution, we will reduce the time taken to park, thereby reducing emissions by 80%.",
                 "table":{
-                    "head":["","Now", "With Smart parking solutions"],
+                    "head":["","Now", "With Smart parking"],
                     "body": [
                         ["Average time spent searching for a spot", "28 min", "5 min"],
                         ["CO2 Emission", "295.572,42 tons","53.136,61 tons"],
@@ -27,10 +27,30 @@
         }
     },
     "pt":{
-        "titulo": "",
+        "titulo": "Impactos sócioambientais",
         "conteudo":{
-            "saude":{},
-            "gases":{}
+            "saude":{
+                "titulo":"Saúde",
+                "conteudo":"A ventilação das garagens fechadas é limitada, podendo causar problemas para a saúde das pessoas.",
+                "collection":{
+                    "header":"Impactos na saúde do CO e CO2",
+                    "items":[
+                        "Sonolência", "Dores de cabeça", "Baixa concentração", "Aumento da frequência cardíaca", "Náusea", "Confusão", "Desmaios"
+                    ]
+                }
+            },
+            "gases":{
+                "titulo":"Emissões de gases",
+                "conteudo":"Calculamos que na cidade de SP, considerando somente o lazer, os estacionamentos são responsáveis pela emissão de 295.572,42 toneladas de CO2 por ano. Para compensar isso, seriam necessárias 1,5bi de árvores. Usando nossa solução, diminuiremos o tempo gasto para estacionar, diminuindo assim a emissão em 80%.",
+                "table":{
+                    "head":["","Agora", "Com Smart parking"],
+                    "body": [
+                        ["Tempo médio gasto para encontrar uma vaga", "28 min", "5 min"],
+                        ["Emissão de CO2", "295.572,42 tons","53.136,61 tons"],
+                        ["Emissão de CO ","2.023,05 tons","363,69 tons"]
+                    ]
+                }
+            }
         }
     }
 }

@@ -1,0 +1,116 @@
+{
+    "en": {
+        "banner": {
+            "titulo": "Smart Parking",
+            "resumo": "A solution to park and find your vehicle easily, efficiently and connected, solving problems intelligently and sustainably."
+        },
+        "menu": [
+            {
+                "titulo": "Home",
+                "link": "#index-banner",
+                "desktop": true
+            },
+            {
+                "titulo": "Challenges",
+                "link":"#desafios",
+                "desktop": true
+            },
+            {
+                "titulo": "Our solution",
+                "link": "#solution",
+                "desktop": true
+            },
+            {
+                "titulo": "How can we help",
+                "link": "#help",
+                "desktop": false
+            },
+            {
+                "titulo": "Environmental Impact",
+                "link": "#impacto-ambiental",
+                "desktop": false
+            },
+            {
+                "titulo": "Economical feasability",
+                "link": "#economical",
+                "desktop": false
+            },
+            {
+                "titulo": "Technical feasability",
+                "link": "#tecnica",
+                "desktop": false
+            },
+            {
+                "titulo": "About us",
+                "link": "#about",
+                "desktop": true
+            },
+            {
+                "titulo": "Contact us",
+                "link": "#contact",
+                "desktop": true
+            }
+        ],
+        "rodape": {
+            "bio": "",
+            "form": ""
+        }
+    },
+    "pt": {
+        "banner": {
+            "titulo": "Smart Parking",
+            "resumo": "Uma solução para estacionar e encontrar o seu veículo de forma fácil, eficiente e conectada, resolvendo os problemas em um jeito inteligente e sustentável"
+        },
+        "menu": [
+            {
+                "titulo": "Home",
+                "link": "#index-banner",
+                "desktop": true
+            },
+            {
+                "titulo": "Desafios",
+                "link":"#desafios",
+                "desktop": true
+            },
+            {
+                "titulo": "Nossa solução",
+                "link": "#solution",
+                "desktop": true
+            },
+            {
+                "titulo": "Como podemos ajudar",
+                "link": "#help",
+                "desktop": false
+            },
+            {
+                "titulo": "Impacto ambiental",
+                "link": "#impacto-ambiental",
+                "desktop": false
+            },
+            {
+                "titulo": "Viabilidade econômica",
+                "link": "#economical",
+                "desktop": false
+            },
+            {
+                "titulo": "Viabilidade técnica",
+                "link": "#tecnica",
+                "desktop": false
+            },
+            {
+                "titulo": "Sobre nós",
+                "link": "#about",
+                "desktop": true
+            },
+            {
+                "titulo": "Entre em contato",
+                "link": "#contact",
+                "desktop": true
+            }
+        ],
+        "rodape": {
+            "bio": "",
+            "form": ""
+        }
+    }
+}

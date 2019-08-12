@@ -4,25 +4,49 @@
         "conteudo": [
             {
                 "titulo": "Time to find free parking space",
-                "conteudo": "How many times have you been looking for a long time and been late for an appointment? After a survey we verified that 64.3% of the participants already got a problem due to the delay seeking parking spaces.",
+                "conteudo": "How many times have you been late or lost an appointment because you couldn’t park your car? According to our survey, 64,6% of the people of São Paulo have gone through this, and the average time to find a parking space is about 28 minutes. In addition, 75% also said that have left because they could not find a parking place.",
                 "icone": "search"
             },
             {
                 "titulo": "Inneficient management",
-                "conteudo": "In large parking lots we always come across large spaces, but often misused or of wrongly calculated size. And to solve this, the owner needs to know what is happening.",
+                "conteudo": "In large parking lots there are large areas, but ofem misused. To solve this, the owner needs to know what is going on. How much money does a parking space make? Which are the most sought after and most rarely used? Would it be more profitable to rent the space?",
                 "icone": "business_center"
             },
             {
                 "titulo": "Difficulty to find the car on exit",
-                "conteudo": "And when do we need to go and do not remember where we left our car? According to our survey 35.7% of people do not remember where they left their vehicle on leaving, and still 21.4% take pictures or make notes to remember. Do you believe ?!",
+                "conteudo": "How many times, when leaving, we can’t remeber where we parked? And even when remebered, it is not always easy to find. According to our survey, 35,7% of people do not remember where they left the vehicle, and another 21,4% take photos or make notes to remember.",
                 "icone": "location_off"
             },
             {
                 "titulo": "Social and environmental problems",
-                "conteudo": "Have you stopped to think about how much we mistreated the planet circulating so much time by the Parking lots? The expense of fuel and the generation of waste is irreparable for the environment, have you thought about it?",
+                "conteudo": "Inside parking lots there is a big problem: the concentration of CO and CO2. As it is a closed environment, the ventilation is limited, so the gas emisions from the cars get accumulated. High CO and CO2 rates causes a lot of problems for our health. This and fuel costs are compounded if we have to keep running to find a spot.",
                 "icone": "local_florist"
             }
         ]
     },
-    "pt": {}
+    "pt": {
+        "titulo": "Desafios",
+        "conteudo": [
+            {
+                "titulo": "Tempo para encontrar uma vaga livre",
+                "conteudo": "Quantas vezes você se atrasou ou perdeu um compromisso por não conseguir estacionar o carro? Segundo nossa pesquisa, 64,6% dos paulistas já passou por isso e o tempo médio para encontrar uma vaga é de 28 minutos. Além disso, 75% também afirmou que já foi embora porque não encontrou local para estacionar.",
+                "icone": "search"
+            },
+            {
+                "titulo": "Gerenciamento ineficiente",
+                "conteudo": "Em grandes estacionamentos vemos grandes áreas, mas frequentemente mal utilizadas. Para resolver isso, o proprietário precisa saber o que está acontecendo. Quanto um estacionamento fatura por espaço de vaga? Quais são as mais procuradas e mais dificilmente usadas? Será que seria mais rentável alugar esse espaço para o comércio?",
+                "icone": "business_center"
+            },
+            {
+                "titulo": "Dificuldade para encontrar o carro na saída",
+                "conteudo": "Quantas vezes, na hora de ir embora, não nos lembramos de onde estacionamos? E mesmo quando lembramos, nem sempre é fácil encontrar. De acordo com a nossa pesquisa, 35,7% das pessoas não se lembram onde deixaram o veículo, e outros 21,4% tiram fotos ou fazem anotações para se lembrar.",
+                "icone": "location_off"
+            },
+            {
+                "titulo": "Problemas socioambientais",
+                "conteudo": "Dentro dos estacionamentos temos um grande problema: a concentração de CO2 Como é um ambiente fechado, há pouca ventilação, então a emissão de gás dos carros fica acumulada. Altas taxas de CO2 causam uma série de problemas para nossa saúde. Isso e o gasto de combustível são agravados se precisamos ficar rodando para encontrar uma vaga.",
+                "icone": "local_florist"
+            }
+        ]
+    }
 }

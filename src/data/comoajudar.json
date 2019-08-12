@@ -1,36 +1,76 @@
 {
     "en":{
         "titulo": "How can we help?",
+        "subtitulo":"Improving urban mobility by looking for new ways to combat social and environmental problems caused by parking lots.",
         "conteudo": [
             {
                 "titulo":"A smart way to park",
-                "conteudo":[
-                    "QR code", "Parking map", "Selected parking space", "Special parking space for users with needs "
-                ],
+                "conteudo":{
+                    "titulo":"Find your parking space easily",
+                    "conteudo":"With our ​ location system​, simply scan the ​ QR code ​ at the entrance to open the parking map ​ and start ​ navigating to your parking spot​ , even if it's a ​ special one."
+                },
                 "icone":"navigation"
             },
             {
                 "titulo":"A smart way to manage",
-                "conteudo":[
-                    "Data analysis", "Indicators related to visitors", "Space used with efficiency"
-                ],
+                "conteudo":{
+                    "titulo":"Data analysis for the owner",
+                    "conteudo":"For the owner, our system will provide analysis of visitors data​, providing insighs about the​ busiest hours​,​ busiest places​, number of monthly fees​,​ unused spaces ​and parking billing."
+                },
                 "icone":"supervisor_account"
             },
             {
                 "titulo":"A smart way to meet the costumer",
-                "conteudo":[
-                    "Easy access", "Information of your parking space (floor, number,type)", "In app payment"
-                ],
+                "conteudo":{
+                    "titulo":"Total support for users",
+                    "conteudo":"Our platform is ​free ​and ​easily accessible​.It gives information about the capacity of the parking lots​, the spaces occupied, ​and offers the option of payment in app​,​ paying exactly for the time you stayed."
+                },
                 "icone":"mood"
             },{
                 "titulo":"A smart way to find your car",
-                "conteudo":[
-                    "Use augmented reality to find your car easily"
-                ],
+                "conteudo":{
+                    "titulo":"Always know where your car is",
+                    "conteudo":"In addition to the spot identification ​information, go to the​ map ​or use​ Augmented Reality (AR) to ​get to your car."
+                },
                 "icone":"my_location"
             }
         ]
-
-        
+    },
+    "pt":{
+        "titulo": "Como podemos ajudar?",
+        "subtitulo":"Melhorando a mobilidade urbana ao procurar novos meios de combater os problemas socioambientais causados pelos estacionamentos.",
+        "conteudo": [
+            {
+                "titulo":"Um jeito inteligente de estacionar",
+                "conteudo":{
+                    "titulo":"Encontre sua vaga facilmente",
+                    "conteudo":"Com nosso sistema de localização, basta ler o QR code na entrada para abrir o mapa do estacionamento e iniciar a navegação até sua vaga, mesmo se for uma especial."
+                },
+                "icone":"navigation"
+            },
+            {
+                "titulo":"Um jeito inteligente de gerenciar",
+                "conteudo":{
+                    "titulo":"Análise de dados para o proprietário",
+                    "conteudo": "Para o proprietário, nosso sistema vai fornecer análise dos dados dos visitantes, proporcionando insights sobre os horários mais movimentados, vagas mais concorridas, quantidade de mensalistas, espaços pouco utilizados e faturamento do estacionamento."
+                },
+                "icone":"supervisor_account"
+            },
+            {
+                "titulo":"Um jeito inteligente de atender o consumidor",
+                "conteudo":{
+                    "titulo":"Suporte total aos usuários",
+                    "conteudo":"A nossa plataforma é gratuita e de fácil acesso. Ela dá informações sobre a lotação dos estacionamentos conveniados, sobre a vaga ocupada, e oferece a opção de pagamento in app, pagando exatamente pelo tempo que ficou."
+                },
+                "icone":"mood"
+            },{
+                "titulo":"Um jeito inteligente de encontrar seu carro",
+                "conteudo":{
+                    "titulo":"Sempre saiba onde seu carro está",
+                    "conteudo":"Além das informações de identificação da vaga, acesse o mapa ou use Realidade Aumentada para chegar até o seu carro."
+                },
+                "icone":"my_location"
+            }
+        ]
     }
 }

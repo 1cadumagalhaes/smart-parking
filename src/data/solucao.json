@@ -1,10 +1,26 @@
 {
     "en":{
         "titulo": "Our solution",
-        "descricao":"To solve this, we're going to develop an indoor location tracking system and a mobile app to the users."
+        "descricao":"To solve this, we're developing the Smart Parking* solution.",
+        "estacionamento":{
+            "titulo":"Parking",
+            "conteudo":"For the parking owner, we’ve developed a GPS-like indoor location system, as well as a management system."
+        },
+        "usuario":{
+            "titulo":"User",
+            "conteudo":"For the user, we made a mobile application with information about parking, navigation to the spot, help to find the car on the way out and easy payment."
+        }
     },
     "pt":{
         "titulo": "Nossa solução",
-        "descricao":"Para resolver isso, vamos resolver um sistema de localização indoor e um aplicativo mobile para os usuários"
+        "descricao":"Para combater isso, estamos fazendo o Smart parking*.",
+        "estacionamento":{
+            "titulo":"Estacionamento",
+            "conteudo":"Para o estacionamento, desenvolvemos um sistema de localização, parecido com GPS, mas indoor, além de um sistema de gerenciamento. "
+        },
+        "usuario":{
+            "titulo":"Usuário",
+            "conteudo":"Para o usuário, fizemos um aplicativo mobile com informações sobre estacionamentos, navegação até a vaga, ajuda para encontrar o carro na saída e pagamento facilitado."
+        }
     }
 }
