@@ -1,6 +1,20 @@
 //banner
 
 //var lang = 'en';
+var submitted=false;
+$('#submit-btn').click(function(e){
+    e.preventDefault();
+    if(validateForm())
+        $('#contact').submit();
+})
+
+
+$('#contact').on('submit', function(e) {
+    //$('#contact *').fadeOut(2000);
+    M.toast({html: 'Email sent'});
+    $('#email').val("");
+    $('#textarea1').val("");
+});
 
 $.urlParam = function (name) {
     var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
@@ -9,10 +23,26 @@ $.urlParam = function (name) {
     return '';
 }
 
+function validateForm(){
+    var email=$('#email').val(),
+    text = $('#textarea1').val(),
+    regEmail = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.([a-z]+))?$/i,
+    regText=/(.+)/gi;
+    if(regEmail.test(email)&&regText.test(text))
+        return true;
+    if(!regEmail.test(email))
+        M.toast({html: 'Please fill the email correctly'});
+    if(!regText.test(text))
+        M.toast({html: 'Please fill the message'});
+    
+    return false;
+}
+
 $('document').ready(function () {
     lang = $.urlParam('lang') || "en";
     if (lang == 'en')
         $('#language').prop('checked', true);
+
     start();
 });
 
