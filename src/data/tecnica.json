@@ -1,0 +1,30 @@
+{
+    "en":{
+        "titulo":"Technical Viability",
+        "descricao":"To make this possible, we will have an integrated hardware and software structure.",
+        "conteudo":{
+            "hardware":{
+                "titulo": "Hardware",
+                "descricao":"On the hardware, we will use Beacons, which will communicate with the user's smartphone via bluetooth and send data. No pairing  needed and no user data access."
+            },
+            "software":{
+                "titulo": "Software",
+                "descricao":"On the software, our app will use this data to calculate the user's position and thus provide navigation within the parking lot, as well as Augmented Reality to find your car. To complete, you will have information about parking lots, vacancies and payment for the time you stayed."
+            }
+        }
+    },
+    "pt":{
+        "titulo":"Viabilidade técnica",
+        "descricao":"Para que isso seja possível, teremos uma estrutura de hardware e software integrados.",
+        "conteudo":{
+            "hardware":{
+                "titulo": "Hardware",
+                "descricao":"No hardware, utilizaremos Beacons, que vão se comunicar com o smartphone do usuário via bluetooth e enviar dados. Sem precisar fazer o pareamento e sem acessar dados do usuário."
+            },
+            "software":{
+                "titulo": "Software",
+                "descricao":"No software, nosso app vai usar esses dados para calcular a posição do usuário e assim fornecer a navegação dentro do estacionamento, além da Realidade Aumentada para encontrar seu carro. Para completar, terá informações sobre os estacionamentos, vagas e pagamento pelo tempo que ficou."
+            }
+        }
+    }
+}

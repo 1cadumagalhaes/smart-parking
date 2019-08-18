@@ -1,0 +1,85 @@
+{
+    "en": {
+        "titulo": "Economic Viability",
+        "conteudo": {
+            "resumo": [
+                {
+                    "item": "Low cost",
+                    "icone": "donate"
+                },
+                {
+                    "item": "Easy installation",
+                    "icone": "cogs"
+                },
+                {
+                    "item": "Little maintenance",
+                    "icone": "tools"
+                }
+            ],
+            "custos": {
+                "titulos": [
+                    "Item",
+                    "Cost"
+                ],
+                "linhas": [
+                    {
+                        "item": "Beacons",
+                        "cost": "$30/un"
+                    },
+                    {
+                        "item": "Installation",
+                        "cost": "$10/un"
+                    },
+                    {
+                        "item": "Maintenance",
+                        "cost": "$30/hour"
+                    },
+                    {
+                        "item": "Software license",
+                        "cost": "$30/mo"
+                    }
+                ]
+            }
+        }
+    },
+    "pt": {
+        "titulo": "",
+        "conteudo": {
+            "resumo": [
+                {
+                    "item": "Baixo custo",
+                    "icone": "donate"
+                },
+                {
+                    "item": "Fácil instalação",
+                    "icone": "cogs"
+                },
+                {
+                    "item": "Pouca manutenção",
+                    "icone": "tools"
+                }
+            ],
+            "custos": {
+                "titulos": ["Item","Custo"],
+                "linhas": [
+                    {
+                        "item": "Beacons",
+                        "cost": "$30/un"
+                    },
+                    {
+                        "item": "Instalação",
+                        "cost": "$10/un"
+                    },
+                    {
+                        "item": "Manutenção",
+                        "cost": "$30/hora"
+                    },
+                    {
+                        "item": "Licença do software",
+                        "cost": "$30/mês"
+                    }
+                ]
+            }
+        }
+    }
+}

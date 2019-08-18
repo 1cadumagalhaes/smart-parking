@@ -52,8 +52,13 @@
             }
         ],
         "rodape": {
-            "bio": "",
-            "form": ""
+            "bio": "We are a team of friends that are passionate about techonolgy and inovation. <br>This project was developped to the Go Green in The City 2019",
+            "form": {
+                "titulo":"Any questions? Contact us",
+                "email":"Your email",
+                "message":"Your message",
+                "button": "Submit"
+            }
         }
     },
     "pt": {
@@ -109,8 +114,13 @@
             }
         ],
         "rodape": {
-            "bio": "",
-            "form": ""
+            "bio": "Somos um time de amigos que são apaixonados por tecnologia e inovação. <br> Esse projeto foi desenvolvido para o Go Green in The City 2019",
+            "form": {
+                "titulo":"Alguma pergunta? Entre em contato",
+                "email":"Seu email",
+                "message":"Sua mensagem",
+                "button": "Enviar"
+            }
         }
     }
 }

@@ -12,3 +12,31 @@
 .navbar-fixed{
     z-index: 1000;
 }
+#tecnica-hardware {
+    min-height: 300px;
+}
+#tecnica-software {
+    min-height: 300px;
+}
+
+
+
+.carregando{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40% 0;
+    opacity: 1;
+    background-color: #00E676;
+    z-index: 1000;
+}
+
+#economica-resumo,#economica-custos{
+    height: 350px;
+}
+.solution{
+    min-height: 500px;
+}
