@@ -40,8 +40,10 @@ function validateForm() {
 
 $('document').ready(function () {
     lang = $.urlParam('lang') || "en";
-    if (lang == 'en')
-        $('#language').prop('checked', true);
+    if (lang == 'en'){
+        $('#language1').prop('checked', true);
+        $('#language2').prop('checked', true);
+    }
 
     start();
 });
@@ -55,8 +57,8 @@ function oncheckchange() {
     start();
 }
 
-$('#language').on('change', oncheckchange);
-
+$('#language1').on('change', oncheckchange);
+$('#language2').on('change', oncheckchange);
 function start() {
     //$('#carregando').html(carregando);
     $.getJSON('src/data/site.json', function (data) {
