@@ -4,16 +4,21 @@
 var submitted = false;
 $('#submit-btn').click(function (e) {
     e.preventDefault();
-    if (validateForm())
+    if (validateForm()){
         $('#contact').submit();
+        console.log('submit');
+    }
 })
 
 
 $('#contact').on('submit', function (e) {
     //$('#contact *').fadeOut(2000);
-    M.toast({ html: 'Email sent' });
-    $('#email').val("");
-    $('#textarea1').val("");
+    setTimeout(function(){
+        M.toast({ html: 'Email sent' });
+        $('#email').val("");
+        $('#textarea1').val("");
+    },1000)
+    
 });
 
 $.urlParam = function (name) {
