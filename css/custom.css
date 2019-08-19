@@ -12,11 +12,8 @@
 .navbar-fixed{
     z-index: 1000;
 }
-#tecnica-hardware {
-    min-height: 300px;
-}
-#tecnica-software {
-    min-height: 300px;
+#tecnica-hardware,#tecnica-software{
+    min-height: 600px;
 }
 
 
@@ -38,5 +35,20 @@
     height: 350px;
 }
 .solution{
-    min-height: 500px;
+    min-height: 650px;
+}
+
+.technical{
+    max-width: 350px;
+}
+.passos{
+    min-height: 350px;
+}
+
+#sobre-julia,#sobre-cadu{
+    text-align: left;
+}
+
+.sobre{
+    min-height: 300px;
 }

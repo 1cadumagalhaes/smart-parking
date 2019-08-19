@@ -144,12 +144,16 @@ function start() {
         var titulo = dados['titulo'],
             descricao = dados['descricao'],
             estacionamento = dados['estacionamento']['conteudo'],
-            usuario = dados['usuario']['conteudo'];
+            usuario = dados['usuario']['conteudo'],
+            estacionamentotitulo = dados['estacionamento']['titulo'],
+            usuariotitulo = dados['usuario']['titulo'];
 
         $('#solucao-titulo').html(titulo);
         $('#solucao-descricao').html(descricao);
         $('#solucao-estacionamento').html(estacionamento);
         $('#solucao-usuario').html(usuario);
+        $('#titulo-estacionamento').html(estacionamentotitulo);
+        $('#titulo-usuario').html(usuariotitulo)
 
 
     });
@@ -175,8 +179,51 @@ function start() {
         $('#economica-titulo').html(titulo);
         $('#economica-resumo').html(resumoEconomico(resumo));
         $('#economica-custos').html(custoEconomico(custos));
+    });
+    $.getJSON('src/data/passos.json', function (data) {
+        var dados = data[lang];
+        var titulo = dados['titulo'], conteudo = dados['conteudo'],
+            economia=conteudo['economia'],api=conteudo['api'],
+            clima=conteudo['clima'],integra=conteudo['integra'],gps=conteudo['gps'];
+        $('#passos-titulo').html(titulo);
+
+        $('#passos-clima').html(cardPassos(clima));
+
+        $('#passos-api').html(cardPassos(api));
+        $('#passos-economia').html(cardPassos(economia));
+        $('#passos-building').html(cardPassos(integra));
+        $('#passos-gps').html(cardPassos(gps));
+
+    });
+    $.getJSON('src/data/sobre.json', function (data) {
+        var dados = data[lang];
+        var titulo = dados['titulo'], julia=dados['julia'],cadu=dados['cadu'],missao=dados['missao'];
+
+        $('#sobre-titulo').html(titulo);
+        $('#missao-titulo').html(missao['titulo']);
+        $('#missao-conteudo').html(missao['conteudo']);
+        $('#sobre-julia').html(cardSobre(julia));
+        $('#sobre-cadu').html(cardSobre(cadu));
     })
+
     $('#carregando').html('');
+}
+
+function cardSobre(conteudo){
+    var nome=conteudo['nome'],info=conteudo['info'],descricao=conteudo['descricao'];
+    return  '<h5 class="green-text">'+nome+'</h5>'
+            +'<h6 class="blue-grey-text">'+info+'</h6>'
+            +'<p>'+descricao+'</p>';
+}
+
+function cardPassos(conteudo){
+    var icone = conteudo['icone'],descricao=conteudo['descricao'];
+    return '<div class="row">'
+                   +'<h5><i class="fas fa-'+icone+' center"></i></h5>'
+                +'</div>'
+                +'<div class="row">'
+                +    '<h5>'+descricao+'</h5>'
+                +'</div>'
 }
 
 function resumoEconomico(resumo) {

@@ -1,0 +1,53 @@
+{
+    "en":{
+        "titulo":"Next steps",
+        "conteudo":{
+            "economia":{
+                "descricao":"<div class='black-text'>Energy economy</div> and lifespan study of equipments for automations and control",
+                "icone":"charging-station"
+            },
+            "api":{
+                "descricao":"Offer of our <div class='black-text'>platform as a service</div> for parking lot networks",
+                "icone":"database"
+            },
+            "clima":{
+                "descricao":"Action against global climate change with <div class='black-text'>CO2 reduction</div>",
+                "icone":"leaf"
+            },
+            "integra":{
+                "descricao":"<div class='black-text'>Integrate our data</div> with Schneider Eletric's EcoStruxure Buildings",
+                "icone":"building"
+            },
+            "gps":{
+                "descricao":"Use GPS to <div class='black-text'>attend open parkings globalwide</div>",
+                "icone":"globe"
+            }
+        }
+    },
+    "pt":{
+        "titulo":"Próximos passos",
+        "conteudo":
+        {
+            "economia":{
+                "descricao":"Estudo de <div class='black-text'>economia de energia</div> e vida útil dos equipamentos para automação e controle",
+                "icone":"charging-station"
+            },
+            "api":{
+                "descricao":"Oferecer nossa <div class='black-text'>plataforma como serviço</div> para redes de estacionamentos",
+                "icone":"database"
+            },
+            "clima":{
+                "descricao":"Ação para a mudança global do clima com <div class='black-text'>redução de C02</div>",
+                "icone":"leaf"
+            },
+            "integra":{
+                "descricao":"<div class='black-text'>Integrar nossos dados</div> com EcoStruxure Buildings da Schneider Eletric",
+                "icone":"building"
+            },
+            "gps":{
+                "descricao":"Usar GPS para <div class='black-text'>atender estacionamentos abertos em todo o mundo</div>",
+                "icone":"globe"
+            }
+        }
+    }
+}

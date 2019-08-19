@@ -1,0 +1,35 @@
+{
+    "en":{
+        "titulo":"About us",
+        "julia":{
+            "nome":"Julia Abdul",
+            "info":"22 years, student of Automation and Control Engineering",
+            "descricao":"A lover of technology and innovation, seeks an better world through automation and sustainability."
+        },
+        "cadu":{
+            "nome":"Carlos Magalhães",
+            "info":"22 years, student of Microelectronics Engineering",
+            "descricao":"Fan of technology, design, web development and Internet of Things (IoT), has great interests in entrepreneurship and innovation."
+        },
+        "missao":{
+            "titulo":"Our purpose",
+            "conteudo":"Make cities in the world green and smarter through connectable parking lots"
+        }
+    },
+    "pt":{
+        "julia":{
+            "nome":"Julia Abdul",
+            "info":"22 anos, estudante de Engenharia de Controle e Automação",
+            "descricao":"Uma amante de tecnologia e inovação, procura um mundo melhor através de automação e sustentabilidade"
+        },
+        "cadu":{
+            "nome":"Carlos Magalhães",
+            "info":"22 anos, estudante de Engenharia Microeletrônica",
+            "descricao":"Fã de tecnologia, design, desenvolvimento e Internet das Coisas (IoT), tem grandes interesses em empreendedorismo e inovação"
+        },
+        "missao":{
+            "titulo":"Nosso propósito",
+            "conteudo":"Tornar as cidades do mundo mais verdes e inteligentes através de estacionamentos conectados"
+        }
+    }
+}
