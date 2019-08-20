@@ -14,13 +14,14 @@
             },
             "gases":{
                 "titulo":"Gas emissions",
-                "conteudo":"We estimate that in the city of São Paulo, considering only leisure such as shopping and concerts, parking lots are responsible for the emission of 295,572.42 tons of CO2 per year. To compensate for this, 1.5bi trees would be needed. Using our solution, we will reduce the time taken to park, thereby reducing emissions by 80%.",
+                "conteudo":"We estimate that in the city of São Paulo, considering only malls, parking lots are responsible for the emission of 30920,41 tons of CO2 per year. To compensate for this, 220k trees would be needed. Using our solution, we will reduce the time taken to park, thereby reducing emissions by 80%. In that case, it would be equivalent to plant 181k trees.",
                 "table":{
                     "head":["","Now", "Smart parking"],
                     "body": [
                         ["Average time spent searching for a spot", "28 min", "5 min"],
-                        ["CO2 Emission", "295.572,42 tons","53.136,61 tons"],
-                        ["CO Emission","2.023,05 tons","363,69 tons"]
+                        ["CO2 Emission", "30920,41 tons","5558,73 tons"],
+                        ["CO Emission","211,64 tons","38,05 tons"],
+                        ["Trees needed to compensate CO2", "220860", "39705"]
                     ]
                 }
             }
@@ -41,13 +42,14 @@
             },
             "gases":{
                 "titulo":"Emissões de gases",
-                "conteudo":"Calculamos que na cidade de SP, considerando somente o lazer, os estacionamentos são responsáveis pela emissão de 295.572,42 toneladas de CO2 por ano. Para compensar isso, seriam necessárias 1,5bi de árvores. Usando nossa solução, diminuiremos o tempo gasto para estacionar, diminuindo assim a emissão em 80%.",
+                "conteudo":"Calculamos que na cidade de SP, considerando somente shoppings, os estacionamentos são responsáveis pela emissão de 30920,41 toneladas de CO2 por ano. Para compensar isso, seriam necessárias 220 mil árvores. Usando nossa solução, diminuiremos o tempo gasto para estacionar, diminuindo assim a emissão em 80%. Nesse caso, isso seria equivalente a plantar 181 mil árvores.",
                 "table":{
                     "head":["","Agora", "Smart parking"],
                     "body": [
                         ["Tempo médio gasto para encontrar uma vaga", "28 min", "5 min"],
-                        ["Emissão de CO2", "295.572,42 tons","53.136,61 tons"],
-                        ["Emissão de CO ","2.023,05 tons","363,69 tons"]
+                        ["Emissão de CO2", "30920,41 tons","5558,73 tons"],
+                        ["Emissão de CO ","211,64 tons","38,05 tons"],
+                        ["Árvores necessárias para compensar o CO2", "220860", "39705"]
                     ]
                 }
             }

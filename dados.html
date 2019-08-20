@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Smart Parking - Go green in the city</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1ebd89af92.js"></script>
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css" />
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="blue-grey darken-4" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="index.html" class="brand-logo white-text text-darken-2">
+                    <p class="flow-text">Smart Parking</p>
+                </a>
+                <ul class="right hide-on-med-and-down" id="nav-desktop">
+                    <li><a class="white-text text-darken-2" href="index.html#index-banner">Home</a></li>
+                    <li><a class="white-text text-darken-2" href="index.html#desafios">Challenges</a></li>
+                    <li><a class="white-text text-darken-2" href="index.html#solution">Our solution</a></li>
+                    <li><a class="white-text text-darken-2" href="index.html#about">About us</a></li>
+                    <li><a class="white-text text-darken-2" href="index.html#contact">Contact us</a></li>
+                    <li><a class="white-text text-darken-2" href="dados.html">Check our data</a></li>
+                    <li>
+                        <div class="switch">
+                            <label>
+                                Pt
+                                <input type="checkbox" id="language1">
+                                <span class="lever"></span>
+                                En
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul id="nav-mobile" class="sidenav blue-grey darken-4">
+                    <li><a class="white-text text-darken-2" href="index.html#index-banner">Home</a></li>
+                    <li><a class="white-text text-darken-2" href="index.html#desafios">Challenges</a></li>
+                    <li><a class="white-text text-darken-2" href="index.html#solution">Our solution</a></li>
+                    <li><a class="white-text text-darken-2" href="index.html#help">How can we help</a></li>
+                    <li><a class="white-text text-darken-2" href="index.html#impacto-ambiental">Environmental Impact</a></li>
+                    <li><a class="white-text text-darken-2" href="index.html#economica">Economical feasability</a></li>
+                    <li><a class="white-text text-darken-2" href="index.html#tecnica">Technical feasability</a></li>
+                    <li><a class="white-text text-darken-2" href="index.html#about">About us</a></li>
+                    <li><a class="white-text text-darken-2" href="index.html#contact">Contact us</a></li>
+                    <li><a class="white-text text-darken-2" href="dados.html">Check our data</a></li>
+                    <li>
+                        <a class="white-text text-darken-2">
+                            <div class="switch">
+                                <label>
+                                    Pt
+                                    <input type="checkbox" id="language2">
+                                    <span class="lever"></span>
+                                    En
+                                </label>
+                            </div>
+                        </a>
+
+                    </li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+
+    <div id="pesquisa" class="green">
+        <div class="section container">
+            <h3 class="white-text">Our survey</h3>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-content grafico">
+                            <h4>How many time have you spent looking for parking spots?</h4>
+                            <div>
+                                <canvas id="grafico-tempo" width="400" height="400"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-content grafico">
+                            <h4>Was late for an appointment because you did'nt find a parking space quickly?</h4>
+                            <div>
+                                <canvas id="grafico-atraso" width="400" height="400"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-content grafico">
+                            <h4>Have you left the place for not finding parking spots?</h4>
+                            <div>
+                                <canvas id="grafico-saiu" width="400" height="400"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-content grafico">
+                            <h4>When you park your car, you:</h4>
+                            <div>
+                                <canvas id="grafico-lembrar" width="400" height="400"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-content grafico">
+                            <h4>Have you been stressed about not finding parking spots? </h4>
+                            <div>
+                                <canvas id="grafico-stress" width="400" height="400"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-content grafico">
+                            <h4>When you can't find a parking spot, you:</h4>
+                            <div>
+                                <canvas id="grafico-vaga" width="400" height="400"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="viabilidade" class="blue-grey darken-2">
+        <div class="section container">
+            <div class="row">
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="green-text">Our example</h3>
+                        <br><br>
+                        <div class="row">
+                            <h4 class="green-text">Parking lot sctructure</h4>
+                            <table class="table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th>Width (m)</th>
+                                        <th>Length (m)</th>
+                                        <th>Area (m²)</th>
+                                        <th>Beacon radius (m)</th>
+                                        <th>Maintenance (hours)</th>
+                                        <th>Tempo (years)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>120</td>
+                                        <td>120</td>
+                                        <td>14.400</td>
+                                        <td>30</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <h4 class="green-text">Values table</h4>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Item</th>
+                                        <th>Price/un</th>
+                                        <th>Cost/un</th>
+                                        <th>Sale Value</th>
+                                        <th>Total cost</th>
+                                        <th>Margin</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Beacon</td>
+                                        <td>30</td>
+                                        <td>22</td>
+                                        <td>1.230</td>
+                                        <td>902</td>
+                                        <td>26,67%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Installation</td>
+                                        <td>10</td>
+                                        <td>6</td>
+                                        <td>410</td>
+                                        <td>246</td>
+                                        <td>40,00%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maintenance</td>
+                                        <td>30</td>
+                                        <td>15</td>
+                                        <td>480</td>
+                                        <td>240</td>
+                                        <td>50,00%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Software License</td>
+                                        <td>200</td>
+                                        <td></td>
+                                        <td>2.400</td>
+                                        <td></td>
+                                        <td>100,00%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Setup</td>
+                                        <td>1.000</td>
+                                        <td>600</td>
+                                        <td>1.000</td>
+                                        <td>600</td>
+                                        <td>40,00%</td>
+                                    </tr>
+                                    <tr>
+                                        <th>TOTAL</th>
+                                        <th>-</th>
+                                        <th>-</th>
+                                        <th>5.520</th>
+                                        <th>1.988</th>
+                                        <th>-</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="impacto" class="green">
+        <div class="section container">
+            <div class="row">
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="green-text">Environmental Impact calculation</h3>
+                        <br><br>
+                        <div class="row">
+                            <h4 class="green-text">Utilized fees</h4>
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>CO/km (g)</th>
+                                        <th>CO2/km (g)</th>
+                                        <th>Max speed on parking lots (km/h)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1,173</td>
+                                        <td>171,378</td>
+                                        <td>10</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <br><br>
+                        <div class="row">
+                            <h4 class="green-text">Other data</h4>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Number of parking lots in SP</th>
+                                        <th>Average of attended vehicles/month</th>
+                                        <th>Number of malls in Brazil's southeast</th>
+                                        <th>Minimum CO2 captured/tree</th>
+                                        <th>Number of malls for our breakeven</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>5.346</td>
+                                        <td>60.000.000</td>
+                                        <td>289</td>
+                                        <td>0,14</td>
+                                        <td>27</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <br><br>
+                        <div class="row">
+                            <h4 class="green-text">Breakeven scenario</h4>
+                            <table class="table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th>-</th>
+                                        <th>Now</th>
+                                        <th>With smart parking solution</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>CO</th>
+                                        <td>19,77 tons per year</td>
+                                        <td>3,55 tons per year</td>
+                                    </tr>
+                                    <tr>
+                                        <th>CO2</th>
+                                        <td>2888,76 tons per year</td>
+                                        <td>519,33 tons per year</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Trees to compensate</th>
+                                        <td>20634</td>
+                                        <td>3709,5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="row">
+                            <h4 class="green-text">PAM scenario</h4>
+                            <table class="table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th>-</th>
+                                        <th>Now</th>
+                                        <th>With smart parking solution</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>CO</th>
+                                        <td>211,64 tons per year</td>
+                                        <td>38,05 tons per year</td>
+                                    </tr>
+                                    <tr>
+                                        <th>CO2</th>
+                                        <td>30920,41 tons per year</td>
+                                        <td>5558,73 tons per year</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Trees to compensate</th>
+                                        <td>220860,0714</td>
+                                        <td>39705,21429</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="row">
+                            <h4 class="green-text">Ideal scenario</h4>
+                            <table class="table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th>-</th>
+                                        <th>Now</th>
+                                        <th>With smart parking solution</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>CO</th>
+                                        <td>3914,89 tons per year</td>
+                                        <td>703,8 tons per year</td>
+                                    </tr>
+                                    <tr>
+                                        <th>CO2</th>
+                                        <td>571974,08 tons per year</td>
+                                        <td>102826,8 tons per year</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Trees to compensate</th>
+                                        <td>4085529,143</td>
+                                        <td>734477,1429</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="blue-grey darken-1">
+        <div class="section container">
+            <div class="row">
+                <div class="card">
+                    <div class="card-content">
+                            <h3 class="green-text">Sources</h3>
+                            <ul class="collection">
+                                    <li class="collection-item"><a href="http://sindepark.com.br/pagina/numeros-do-setor" target="_blank">Sindepark</a></li>
+                                    <li class="collection-item"><a href="https://abrasce.com.br/numeros/regionais/" target="_blank">Abrasce</a></li>
+                                    <li class="collection-item"><a href="https://revistas.unicentro.br/index.php/ambiencia/article/view/234" target="_blank">Article used</a></li>
+                                    <li class="collection-item"><a href="https://www.oeco.org.br/colunas/colunistas-convidados/23034-afinal-quanto-carbono-uma-arvore-sequestra/" target="_blank">O eco</a></li>
+                                    <li class="collection-item"><a href="http://www.anfavea.com.br/Emissoes/TabelaGMEmissoes.pdf" target="_blank">Anfavea</a></li>
+                                </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer blue-grey darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Company Bio</h5>
+                    <p class="grey-text text-lighten-4" id="company-bio">Somos blablabla</p>
+
+                </div>
+                <form class="col l6 s12" id="contact" name="gform"
+                    action="https://docs.google.com/forms/d/e/1FAIpQLSeO5QS9yOEe8qmI0jY1pATIQtDsUCWuckIAcs2fv41d6p47jA/formResponse?"
+                    target="hidden_iframe" onsubmit="submitted=validateForm;">
+                    <div class="row">
+                        <div class="col s12 center">
+                            <h5 class="white-text" id="form-titulo">
+                                Any questions? Contact us
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate" name="entry.275658754">
+                            <label for="email" class="grey-text text-lighten-4" id="form-email">Your Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea" name="entry.1110201146"></textarea>
+                            <label for="textarea1" class="grey-text text-lighten-4" id="form-message">Your
+                                message</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <button class="btn waves-effect waves-light" type="submit" name="action"
+                                id="submit-btn"><span id="form-button">Submit</span>
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Made by <a class="brown-text text-lighten-3" href="https://magalhaescarlos.github.io/"
+                    target="_blank">@magalhaescarlos</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="carregando">
+        <div class="row carregando">
+            <div class="center">
+                <div class="preloader-wrapper big active">
+                    <div class="spinner-layer spinner-white-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="gap-patch">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js">
+    </script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/data.js"></script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+</body>
+
+</html>
